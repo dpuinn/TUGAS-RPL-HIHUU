@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medika Store - Katalog Alat Kesehatan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">✚ MedikaStore</div>
+
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#katalog">Kategori</a>
+            <a href="#tentang">Tentang Kami</a>
+            <a href="#kontak">Kontak</a>
+            <a href="#kontak" class="login">Masuk</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+
+        <div class="hero-text">
+            <h1>Alat Kesehatan Steril Untuk Hidup Sehat</h1>
+
+            <p>
+                Temukan berbagai alat kesehatan berkualitas dan steril
+                untuk mendukung kesehatan Anda dan keluarga.
+                Praktis, aman, dan terpercaya hanya di MedikaStore.
+            </p>
+
+            <a href="#katalog" class="btn">Lihat Menu →</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800"
+            alt="Peralatan kesehatan">
+        </div>
+
+    </section>
+
+    <!-- KATALOG -->
+    <section class="katalog" id="katalog">
+
+        <h2>Pilihan Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="c:\xampp\htdocs\Davin X RPL1\Membuat website katalog menu TEMA KESEHATAN\images (4).jpg" alt="Termometer">
+                <h3>Termometer Digital</h3>
+                <p>Mengukur suhu tubuh dengan cepat dan akurat.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=500" alt="Tensimeter">
+                <h3>Tensimeter</h3>
+                <p>Memantau tekanan darah dengan mudah.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=500" alt="Masker">
+                <h3>Masker Medis</h3>
+                <p>Melindungi diri dari debu dan percikan.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500" alt="Hand sanitizer">
+                <h3>Hand Sanitizer</h3>
+                <p>Menjaga kebersihan tangan kapan saja.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=500" alt="Stetoskop">
+                <h3>Stetoskop</h3>
+                <p>Membantu pemeriksaan kesehatan.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=500" alt="Kotak P3K">
+                <h3>Kotak P3K</h3>
+                <p>Perlengkapan pertolongan pertama saat darurat.</p>
+                <a href="#kontak">Selengkapnya →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section class="tentang" id="tentang">
+        <h2>Tentang Kami</h2>
+
+        <p>
+            MedikaStore adalah toko alat kesehatan yang menyediakan
+            berbagai perlengkapan medis berkualitas yang pastinya steril untuk Anda
+            dan keluarga. Kami membantu memenuhi kebutuhan
+            alat kesehatan sehari-hari.
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+   
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Table & Customer Reviews</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+        }
+
+        /* BOOK A TABLE */
+        .booking-section {
+            padding: 70px 10%;
+        }
+
+        .booking-section h2,
+        .testimonial-section h2 {
+            text-align: center;
+            font-family: cursive;
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        .booking-container {
+            display: flex;
+            gap: 30px;
+            align-items: stretch;
+        }
+
+        .booking-form {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .booking-form input,
+        .booking-form select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            outline: none;
+            background: white;
+        }
+
+        .booking-form button {
+            width: 130px;
+            padding: 12px;
+            background: #ffbe33;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .booking-form button:hover {
+            background: #e69c00;
+        }
+
+        .booking-map {
+            flex: 1;
+            min-height: 300px;
+        }
+
+        .booking-map iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+            border: 0;
+        }
+
+        /* CUSTOMER REVIEWS */
+        .testimonial-section {
+            padding: 60px 5%;
+        }
+
+        .testimonial-container {
+            display: flex;
+            gap: 25px;
+        }
+
+        .testimonial-card {
+            flex: 1;
+            background: #222831;
+            color: white;
+            padding: 25px;
+            border-radius: 5px;
+        }
+
+        .testimonial-card p {
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-card h4 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-card span {
+            font-size: 13px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .booking-container {
+                flex-direction: column;
+            }
+
+            .booking-map {
+                min-height: 250px;
+            }
+
+            .testimonial-container {
+                flex-direction: column;
+            }
+
+            .booking-section {
+                padding: 40px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BOOK A TABLE SECTION -->
+    <section class="booking-section" id="booking">
+
+        <h2>Book A Table</h2>
+
+        <div class="booking-container">
+
+            <form class="booking-form">
+
+                <input type="text"
+                       placeholder="Your Name"
+                       required>
+
+                <input type="tel"
+                       placeholder="Phone Number"
+                       required>
+
+                <input type="email"
+                       placeholder="Your Email"
+                       required>
+
+                <select required>
+                    <option value="">How many persons?</option>
+                    <option>1 Person</option>
+                    <option>2 Persons</option>
+                    <option>3 Persons</option>
+                    <option>4 Persons</option>
+                    <option>5 Persons</option>
+                    <option>6 Persons</option>
+                </select>
+
+                <input type="date" required>
+
+                <button type="submit">BOOK NOW</button>
+
+            </form>
+
+            <div class="booking-map">
+
+                <iframe
+                    src="https://maps.google.com/maps?q=Malang&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- KOMENTAR REKANAN / CUSTOMER REVIEWS -->
+    <section class="testimonial-section">
+
+        <h2>What Say Our Customers</h2>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial-card">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam.
+                </p>
+
+                <h4>Moana Michell</h4>
+                <span>magna aliqua</span>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam.
+                </p>
+
+                <h4>Mike Hamell</h4>
+                <span>magna aliqua</span>
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
+ <footer id="kontak">
+
+        <div>
+            <h3>✚ MedikaStore</h3>
+            <p>Sehat Lebih Mudah, Hidup Lebih Baik.</p>
+        </div>
+
+        <div>
+            <h3>Menu</h3>
+            <p>Beranda</p>
+            <p>Kategori</p>
+            <p>Tentang Kami</p>
+        </div>
+
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: medikastore@gmail.com</p>
+            <p>Telepon: 081234567890</p>
+        </div>
+
+        <p class="copyright">
+            © 2026 MedikaStore.HIHUUUUUU
+        </p>
+
+    </footer>
